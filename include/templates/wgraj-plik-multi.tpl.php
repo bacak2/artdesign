@@ -5,7 +5,7 @@
 <script src="//blueimp.github.io/JavaScript-Load-Image/js/load-image.all.min.js"></script>
 <?php
 
-require('../../jQuery-File-Upload-9.25.1/server/php/index.php');
+require('jQuery-File-Upload-9.25.1/index.php');
 
 ?>
 <!-- The Canvas to Blob plugin is included for image resizing functionality
