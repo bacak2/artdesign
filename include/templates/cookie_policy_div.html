@@ -1,0 +1,18 @@
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#cookie_policy_close").click(function(){
+           $.post("include/classes/ajax/cookie_accept.php", { accept : true },
+			   function(data){
+                               if(data == "1"){
+                                   $("#cookie_policy").hide();
+                               }
+			   });
+        });
+    });
+</script>
+<div id="cookie_policy" class="cookie_policy" style="position: fixed; display: block;">
+    <a id="cookie_policy_close" href="#">X</a>
+    <div>
+        Informujemy, że na naszej stronie www stosujemy pliki cookies (tzw. ciasteczka).<br />Więcej na temat plików cookies oraz zarządzania nimi znajdziesz w naszej <a href="/polityka-prywatnosci.html" target="_blank">[POLITYCE PRYWATNOŚCI]</a>.
+    </div>
+</div>

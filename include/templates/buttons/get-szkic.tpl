@@ -1,0 +1,1 @@
+<a href="javascript:GetSzkic(<?php echo $Project; ?>)" style="margin-right: 10px;"><img src="/images/szkic-on.gif" alt="Wczytaj szkic"></a>

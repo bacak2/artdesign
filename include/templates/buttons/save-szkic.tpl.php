@@ -1,0 +1,1 @@
+<a href="javascript:SaveSzkic(<?php echo $Project; ?>)" style="margin-right: 10px;"><img src="/images/szkic-off.gif" alt="Zapisz szkic"></a>

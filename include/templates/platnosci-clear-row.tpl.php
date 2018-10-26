@@ -1,0 +1,1 @@
+<a href="javascript:EditPayment(<?php echo $UserID; ?>,<?php echo $i; ?>,0)"><img src="/images/add.gif" alt="Edytuj" /> Wprowadź dane</a>
